@@ -12,7 +12,7 @@ int main(){
 	do{
 		printf("Ingrese una palabra: ");
 		memset(cadena, '\0', len); //Nos permite rellenar la cadena con un caracter especificado, en este caso nulo
-		scanf("%s", &cadena);
+		scanf("%s", cadena);
 		palindromo(cadena);
 	}while(strcmp(cadena, "salir") != 0);
 

@@ -7,7 +7,7 @@ void transformar(char cadena[20]);
 int main(void){
 	char cadena[20]; // Cadena en donde vamos a almacenar lo introducido por teclado
 
-	scanf("%s", &cadena); // lectura de los caracteres mediante entrada estandar
+	scanf("%s", cadena); // lectura de los caracteres mediante entrada estandar
 	printf("%s\n", cadena); // resultados mostrados mediante salida estandar
 
 	transformar(cadena);
